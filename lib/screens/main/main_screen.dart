@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:responsive/controllers/MenuAppController.dart';
 import 'package:responsive/responsive.dart';
 import 'package:responsive/screens/dashboard/dashboard_screen.dart';
-
 import 'components/side_menu.dart';
 
 class MainScreen extends StatelessWidget {
@@ -18,7 +17,7 @@ class MainScreen extends StatelessWidget {
           children: [
             // We want this side menu only for large screen
             if (Responsive.isDesktop(context))
-              Expanded(
+              const Expanded(
                 // default flex = 1
                 // and it takes 1/6 part of the screen
                 child: SideMenu(),
