@@ -11,6 +11,25 @@ class Demo2 extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+    //        Row(
+    //   children: [            ////  verticaly icon and datail
+    //     const Padding(
+    //       padding: EdgeInsets.all(8.0),
+    //       child: Icon(Icons.account_circle, size: 50),
+    //     ),
+    //     Column(
+    //       mainAxisSize: MainAxisSize.min,
+    //       crossAxisAlignment: CrossAxisAlignment.start,
+    //       children: [
+    //         Text(
+    //           'Flutter McFlutter',
+    //           style: Theme.of(context).textTheme.headlineSmall,
+    //         ),
+    //         const Text('Experienced App Developer'),
+    //       ],
+    //     ),
+    //   ],
+    // ),
           Row(
             children: [
               Column(mainAxisSize: MainAxisSize.min, children: [
